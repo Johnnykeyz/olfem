@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olfem Integrated Services | Leading Construction & Consulting Company in Lagos</title>
+    <meta name="description" content="Professional construction and consulting services in Lagos, Nigeria. Quality building construction, project management, and engineering solutions since 2017.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <img src="img/logo.png">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <a href="#home" class="navbar-brand">
+            <div class="logo"><img src="img/logo.png"></div>
+        </a>
+        <button class="hamburger" id="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="navbar-menu" id="navbar-menu">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#team" class="nav-link">Team</a></li>
+            <li><a href="#gallery" class="nav-link">Gallery</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content fade-in-up">
+            <h1>OLFEM INTEGRATED SERVICES</h1>
+            <p>Leading provider of consulting and construction services in Lagos, Nigeria. Building excellence through innovation, quality, and timely delivery since 2017.</p>
+            <div class="cta-buttons">
+                <a href="#services" class="btn btn-primary">
+                    <i class="fas fa-tools"></i>
+                    Our Services
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-paper-plane"></i>
+                    Get Quote
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h2 class="section-title animate-on-scroll">About Us</h2>
+        <div class="section-subtitle animate-on-scroll">Fast-growing establishment delivering excellence in consulting and construction services</div>
+        <div class="about-content">
+            <div class="about-text animate-on-scroll">
+                <p>Olfem Integrated Services is a fast-growing establishment that started its consulting and contracting services in 2017. We have built a reputation for competent work teams, efficiency in service delivery, effective operations, quality jobs, and timely delivery.</p>
+                <p>Our team has carried out many challenging projects over the years, exposing us to complex work situations that have sharpened our abilities with necessary skills, know-how, and experience in design and build solutions, construction project management services, building trades, and related engineering works.</p>
+                <p>We are committed to repositioning ourselves in a more organized structure to serve our clients better, offering design inputs across various project stages and engineering solutions as value-added services.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-card animate-on-scroll">
+                    <div class="stat-number">8+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-card animate-on-scroll">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-card animate-on-scroll">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services">
+        <h2 class="section-title animate-on-scroll">Our Services</h2>
+        <div class="section-subtitle animate-on-scroll">Comprehensive solutions for all your construction and consulting needs</div>
+        <div class="services-grid">
+            <div class="service-card animate-on-scroll">
+                <div class="service-icon">
+                    <i class="fas fa-drafting-compass"></i>
+                </div>
+                <h3 class="service-title">Consulting Services</h3>
+                <div class="service-description">
+                    <ul>
+                        <li>Feasibility Studies</li>
+                        <li>Bill of Quantities Preparation</li>
+                        <li>Materials Schedule</li>
+                        <li>Cost Analysis & Tender Preparation</li>
+                        <li>Architectural Design</li>
+                        <li>Plumbing & Electrical Design</li>
+                        <li>Project Valuation</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="service-card animate-on-scroll">
+                <div class="service-icon">
+                    <i class="fas fa-hard-hat"></i>
+                </div>
+                <h3 class="service-title">Construction Services</h3>
+                <div class="service-description">
+                    <ul>
+                        <li>Building Construction</li>
+                        <li>Drainage Construction</li>
+                        <li>Building Renovation</li>
+                        <li>Project Management</li>
+                        <li>Quality Control</li>
+                        <li>Site Supervision</li>
+                        <li>Material Procurement</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="service-card animate-on-scroll">
+                <div class="service-icon">
+                    <i class="fas fa-couch"></i>
+                </div>
+                <h3 class="service-title">Furniture & Aluminum Works</h3>
+                <div class="service-description">
+                    <ul>
+                        <li>Office Partitioning (MDF, HDF, Aluminum)</li>
+                        <li>Glass Installation</li>
+                        <li>Office Desks & Furniture</li>
+                        <li>Custom Furniture Design</li>
+                        <li>Aluminum Fabrication</li>
+                        <li>Interior Fit-out</li>
+                        <li>Space Planning</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="service-card animate-on-scroll">
+                <div class="service-icon">
+                    <i class="fas fa-wrench"></i>
+                </div>
+                <h3 class="service-title">Maintenance Services</h3>
+                <div class="service-description">
+                    <ul>
+                        <li>Building Maintenance</li>
+                        <li>Facility Management</li>
+                        <li>Preventive Maintenance</li>
+                        <li>Emergency Repairs</li>
+                        <li>System Upgrades</li>
+                        <li>Regular Inspections</li>
+                        <li>Performance Monitoring</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section team">
+        <h2 class="section-title animate-on-scroll">Our Management Team</h2>
+        <div class="section-subtitle animate-on-scroll">Experienced professionals committed to delivering excellence</div>
+        <div class="team-grid">
+            <div class="team-card animate-on-scroll">
+                <div class="team-avatar">OF</div>
+                <h3 class="team-name">QS. Dr. Olorundare Femi</h3>
+                <p class="team-role">Managing Director</p>
+                <p class="team-qualification">B.Tech, M.Tech, PhD (MNIQS, RQS)</p>
+            </div>
+            <div class="team-card animate-on-scroll">
+                <div class="team-avatar">AH</div>
+                <h3 class="team-name">Aliyu Habeeb</h3>
+                <p class="team-role">General Manager</p>
+                <p class="team-qualification">B.Tech, M.Tech</p>
+            </div>
+            <div class="team-card animate-on-scroll">
+                <div class="team-avatar">AO</div>
+                <h3 class="team-name">Adeyemi Oluwole</h3>
+                <p class="team-role">Structural Engineer</p>
+                <p class="team-qualification">B.Eng</p>
+            </div>
+            <div class="team-card animate-on-scroll">
+                <div class="team-avatar">OD</div>
+                <h3 class="team-name">Oladipupo Damilola</h3>
+                <p class="team-role">Architect</p>
+                <p class="team-qualification">BSc</p>
+            </div>
+            <div class="team-card animate-on-scroll">
+                <div class="team-avatar">AA</div>
+                <h3 class="team-name">Akani Abiodun</h3>
+                <p class="team-role">M/E Engineer</p>
+                <p class="team-qualification">B.Eng</p>
+            </div>
+            <div class="team-card animate-on-scroll">
+                <div class="team-avatar">OC</div>
+                <h3 class="team-name">Obajemihi Charles</h3>
+                <p class="team-role">Procurement Manager & Site Coordinator</p>
+                <p class="team-qualification">B.Tech</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery">
+    <h2 class="section-title animate-on-scroll">Recent Projects</h2>
+    <div class="section-subtitle animate-on-scroll">Showcasing our expertise in construction and consulting</div>
+    
+    <div class="gallery-grid">
+        <div class="gallery-item animate-on-scroll">
+            <div>
+                <img src="img/picture1.jpeg" alt="Commercial Buildings" style="width:100%; height: 100%; border-radius:8px; ">
+               
+            </div>
+        </div>
+        <div class="gallery-item animate-on-scroll">
+            <div>
+                <img src="img/picture2.jpeg" alt="Residential Projects" style="width:100%; border-radius:8px;">
+                
+            </div>
+        </div>
+        <div class="gallery-item animate-on-scroll">
+            <div>
+                <img src="img/picture8.jpg" alt="Industrial Facilities" style="width:100%; border-radius:8px;">
+                
+            </div>
+        </div>
+        <div class="gallery-item animate-on-scroll">
+            <div>
+                <img src="img/picture9.jpg" alt="Infrastructure Development" style="width:100%; border-radius:8px;">
+                
+            </div>
+        </div>
+        <div class="gallery-item animate-on-scroll">
+            <div>
+                <img src="img/picture10.jpg" alt="Renovation Projects" style="width:100%; border-radius:8px;">
+                
+            </div>
+        </div>
+        <div class="gallery-item animate-on-scroll">
+            <div>
+                <img src="img/picture6.jpg" alt="Furniture & Interiors" style="width:100%; border-radius:8px;">
+               
+            </div>        
+        </div>
+        <div class="gallery-item animate-on-scroll">
+            <div>
+                <img src="img/picture3.jpg" alt="Furniture & Interiors" style="width:100%; border-radius:8px;">
+               
+            </div>        
+        </div>
+        <div class="gallery-item animate-on-scroll">
+            <div>
+                <img src="img/picture4.jpg" alt="Furniture & Interiors" style="width:100%; border-radius:8px;">
+               
+            </div>        
+        </div>
+        <div class="gallery-item animate-on-scroll">
+            <div>
+                <img src="img/picture5.jpg" alt="Furniture & Interiors" style="width:100%; border-radius:8px;">
+               
+            </div>        
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2 class="section-title animate-on-scroll">Get In Touch</h2>
+        <div class="section-subtitle animate-on-scroll">Ready to start your next project? Contact us today for a consultation</div>
+        <div class="contact-content">
+            <div class="contact-info animate-on-scroll">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Our Office</h3>
+                        <p>No. 2, Awefeso Street,<br>Palmgrove, Lagos, Nigeria</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Phone Numbers</h3>
+                        <p>+234 806 576 5669<br>+234 807 695 0437</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Email Address</h3>
+                        <p>olorundarefemi7@gmail.com<br>admin@olfem.uk</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Website</h3>
+                        <p>www.olfem.uk</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form animate-on-scroll">
+                <form id="contactForm" onsubmit="handleFormSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Required</label>
+                        <select id="service" name="service">
+                            <option value="">Select a service</option>
+                            <option value="consulting">Consulting Services</option>
+                            <option value="construction">Construction Services</option>
+                            <option value="furniture">Furniture & Aluminum Works</option>
+                            <option value="maintenance">Maintenance Services</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Olfem Integrated Services</h3>
+                <p>Leading provider of consulting and construction services in Lagos, Nigeria. Building excellence through innovation, quality, and timely delivery since 2017.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Our Services</h3>
+                <p><a href="#services">Consulting Services</a></p>
+                <p><a href="#services">Construction Services</a></p>
+                <p><a href="#services">Furniture & Aluminum Works</a></p>
+                <p><a href="#services">Maintenance Services</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> No. 2, Awefeso Street, Palmgrove, Lagos</p>
+                <p><i class="fas fa-phone"></i> +234 806 576 5669</p>
+                <p><i class="fas fa-envelope"></i> admin@olfem.uk</p>
+                <p><i class="fas fa-globe"></i> www.olfem.uk</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <p><a href="#about">About Us</a></p>
+                <p><a href="#team">Our Team</a></p>
+                <p><a href="#gallery">Projects</a></p>
+                <p><a href="#contact">Contact</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Olfem Integrated Services. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" onclick="scrollToTop()">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+<script src="script.js"></script>
+</body>
+</html>
